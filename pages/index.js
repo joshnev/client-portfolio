@@ -14,7 +14,7 @@ import changeColour from '../public/images/main/color-change.svg';
 // state
 import { useState } from 'react';
 // modal pdf
-import Modal from '../components/Modal';
+// import Modal from '../components/Modal';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState();
@@ -198,7 +198,7 @@ export default function Home() {
           </section>
         </main>
       </div>
-      <Modal />
+      {/* <Modal /> */}
     </>
   );
 }
