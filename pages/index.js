@@ -163,7 +163,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-[40px] py-[40px] lg:flex-row lg:flex-wrap justify-center">
-              <div className="basis-1/3 flex-1">
+              <div className="basis-1/3 flex-1 pb-5">
                 <Image
                   className="rounded-lg object-cover"
                   src={portfolio1}
