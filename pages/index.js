@@ -170,7 +170,7 @@ export default function Home() {
                   layout="responsive"
                 />
               </div>
-              <div className="basis-1/3 flex-1">
+              <div className="basis-1/3 flex-1 pb-5">
                 <Image
                   className="rounded-lg object-cover"
                   src={portfolio2}
@@ -180,14 +180,14 @@ export default function Home() {
                   Hey, I am here to fill the awkward empty space 😉.
                 </p>
               </div>
-              <div className="basis-1/3 flex-1">
+              <div className="basis-1/3 flex-1 pb-5">
                 <Image
                   className="rounded-lg object-cover"
                   src={portfolio3}
                   layout="responsive"
                 />
               </div>
-              <div className="basis-1/3 flex-1">
+              <div className="basis-1/3 flex-1 pb-5">
                 <Image
                   className="rounded-lg object-cover"
                   src={portfolio4}
