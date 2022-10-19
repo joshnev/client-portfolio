@@ -49,18 +49,17 @@ export default function Home() {
                 Dev <span className="text-yellow-500">Guru</span>
               </h1>
               <ul className="flex items-center">
-                <li>
+                <li className="">
                   <Image
                     src={changeColour}
                     width={30}
                     height={30}
                     onClick={() => setDarkMode(!darkMode)}
-                    className="cursor-pointer"
                   />
                 </li>
                 <li>
                   <a
-                    className="bg-gradient-to-l bg-gray-700 text-white px-4 py-2 rounded-md ml-8"
+                    className="bg-gradient-to-l bg-gray-700 text-white px-4 py-2 rounded-md ml-2"
                     href="#"
                   >
                     🍔 Menu
@@ -73,11 +72,15 @@ export default function Home() {
               <h2 className="text-white text-5xl py-2 font-medium font-[poppins] md:text-6xl">
                 Joshua Nevard
               </h2>
-              <h3 className="text-2xl py-2 text-gray-700 md:text-3xl">
-                <span className="bg-yellow-500 rounded-lg py-[5px] px-[5px] text-blue-500 italic font-[rubik] drop-shadow-2xl">
-                  Designer and Developer
+              <h3 className="text-2xl md:text-3xl text-slate-600 italic font-[rubik] drop-shadow-2xl flex justify-center gap-1">
+                <span className="bg-yellow-500 rounded-lg py-[5px] px-[5px]">
+                  Designer
+                </span>{' '}
+                <span className="bg-yellow-500 rounded-lg py-[5px] px-[5px]">
+                  Developer
                 </span>
               </h3>
+
               <p className="font-[rubik] text-lg py-5 leading-8 md:text-xl text-yellow-100 max-w-[300px] mx-auto">
                 Hi there, I code{' '}
                 <span className="text-yellow-500 font-semibold">beautiful</span>{' '}
@@ -154,9 +157,9 @@ export default function Home() {
               <h3 className="text-3xl py-1 text-white">Portfolio:</h3>
 
               <p className=" text-white text-lg py-5 leading-8">
-                Below is a collection of my work. For quick reference click here
-                for client portfolio work, here for e-commerce work and finally
-                here for other.
+                Below is a collection of my work TEST. For quick reference click
+                here for client portfolio work, here for e-commerce work and
+                finally here for other.
               </p>
             </div>
             <div className="flex flex-col gap-[40px] py-[40px] lg:flex-row lg:flex-wrap justify-center">
@@ -173,7 +176,7 @@ export default function Home() {
                   src={portfolio2}
                   layout="responsive"
                 />
-                <p className="sm:invisible md:visible lg:visible flex justify-center text-white text-md mt-10">
+                <p className="invisible absolute lg:visible flex justify-center text-white text-md mt-10">
                   Hey, I am here to fill the awkward empty space 😉.
                 </p>
               </div>
