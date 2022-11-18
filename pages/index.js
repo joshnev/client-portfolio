@@ -157,9 +157,7 @@ export default function Home() {
               <h3 className="text-3xl py-1 text-white">Portfolio:</h3>
 
               <p className=" text-white text-lg py-5 leading-8">
-                Below is a collection of my work TEST. For quick reference click
-                here for client portfolio work, here for e-commerce work and
-                finally here for other.
+                Below is a collection of my work, take a peek!
               </p>
             </div>
             <div className="flex flex-col gap-[40px] py-[40px] lg:flex-row lg:flex-wrap justify-center">
